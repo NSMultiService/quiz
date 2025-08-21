@@ -1,0 +1,141 @@
+ body {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background: #f4f4f9;*/
+     margin: 0;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-image: url("/images/back.png");
+     background-size: cover;
+     /* Ajuste l'image pour couvrir tout l'espace disponible */
+     background-position: center center;
+     /* Centre l'image */
+     background-repeat: no-repeat;
+     /* Empêche la répétition de l'image */
+ }
+
+ /********************************HEADER*************************/
+
+ header {
+     position: fixed;
+     background-color: blue;
+     color: white;
+     max-height: 105px;
+     display: flex;
+     gap: 20px;
+     top: 0;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+     padding: 0px 20px;
+     z-index: 999999;
+ }
+
+
+
+
+ .head-logo h2 {
+     font-size: 4.5rem;
+ }
+
+ .logo {
+     margin: 10px;
+
+     max-width: 80px;
+     max-height: 100px;
+     background-color: red;
+     display: flex;
+     padding-right: 9px;
+     justify-content: center;
+     border-radius: 25px 25px;
+ }
+
+ .head-logo img {
+     position: relative;
+     margin-left: 9px;
+     width: 100px;
+     height: 110px;
+     bottom: 5px;
+ }
+
+ /***************************************CONTAINER*****************************/
+
+ .container-quiz {
+     background: white;
+     padding: 20px;
+     border-radius: 15px;
+     width: 400px;
+     max-width: 90%;
+     margin-top: 50px;
+     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+ }
+
+ .container-quiz p{
+    font-size: 1.9rem;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+ }
+
+ .container-quiz h2{
+    text-align: center;
+    margin-bottom: 20px;
+ }
+
+ 
+
+
+ .result {
+     padding: 10px;
+     border-radius: 10px;
+     font-size: 14px;
+     font-weight: bold;
+     margin: 10px;
+     color: green;
+     
+ }
+
+ 
+ 
+
+ /***************************************bouton*****************************/
+ .btn {
+     width: 100%;
+     padding: 12px;
+     margin: 10px 10px 10px 2px;
+     background-color: blue;
+     color: white;
+     border: none;
+     border-radius: 10px;
+     font-size: 16px;
+     font-weight: bold;
+     cursor: pointer;
+     transition: 2s;
+ }
+
+ .btn:hover {
+     background: rgb(43, 43, 192);
+ }
+ /***************************************zone Question*****************************/
+
+#question {
+    font-size: 1.5rem;
+    color: blue;
+   
+}
+
+
+.question{
+    text-align: center;
+    padding: 15px;
+    border: 2px dashed #4a90e2;
+    border-radius: 10px;
+    background: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+
+ 
